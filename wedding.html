@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+    body,h1,h2{font-family: "Raleway", sans-serif}
+    body, html {height: 100%}
+    p {line-height: 2}
+    .bgimg, .bgimg2 {
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+        .bgimg{background-image:url("a/wedding_couple.jpg");
+
+        }
+        .bgimg2{background-image:url("a/flowers.jpg");
+    height: 100vh;}
+    </style>
+</head>
+
+<body>
+    <header class="w3-display-container bgimg">
+        <div class="w3-display-middle text-white text-center">
+            <h1>Emir & ??</h1>
+            <h2>Are getting married</h2>
+    <h2><b>17.07.2025</b></h2>
+        </div>
+    </header>
+    <nav class="w3-bottom w3-hide-small ">
+            <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+              <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+              <a href="#us" style="width:25%" class="w3-bar-item w3-button">Emir & ???</a>
+              <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+              <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Rez</a>
+            </div>
+    </nav>
+
+    <main style="background-color: #ffdddd!important;">
+     <div class="container w3-center">
+         <img src="a/wine.jpg" alt="">
+         <p>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <br>
+        <button class="btn btn-dark w3-hover-grey text-white w3-large w3-padding-32">Wedding Details</button>
+        <br><br>
+     </div>
+     <div class="w3-display-container bgimg2">
+        <div class="w3-display-middle text-white text-center">
+            <h1 >You are invited</h1>
+            <br> <br>
+            <h2>Of Course...</h2>
+             
+     </div> 
+     </div>
+     <br><br><br>
+     <div class="container w3-center w3-text-gray">
+         
+         <h1>THE WEDDİNG</h1>
+         <br><br>
+         <img src="a/wedding_location.jpg" alt="" class="w3-image">
+         <br><br>
+         <div class="row">
+             <div class="col-md-6"><h2>When</h2>
+                <p>Wedding Ceremony - 2:00pm</p>
+                <p>Reception & Dinner - 5:00pm</p></div>
+             <div class="col-md-6"><h2>Where</h2>
+                <p>Some place, an address</p>
+                <p>Some where, some address</p></div>
+         </div></div>
+<br><br>
+<div class="container w3-center">
+          <h1>HOPE YOU CAN MAKE IT!</h1>
+        <p class="w3-large">Kindly Respond By January, 2025</p>
+        <br>
+        <p class="w3-xlarge">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">REZ</button>
+            </div>
+   
+
+            <br><br><br><br><br><br><br>
+    
+    
+     
+    </main>
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+          <div class="w3-container w3-white w3-center">
+            <h1 class="w3-wide">CAN YOU COME?</h1>
+            <p>We really hope you can make it.</p>
+            <form>
+              <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+            </form>
+            <p><i>Sincerely, Emir &amp; ?</i></p>
+            <div class="w3-row">
+              <div class="w3-half">
+                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+              </div>
+              <div class="w3-half">
+                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+</script>
+
+</body>
+
+</html>
